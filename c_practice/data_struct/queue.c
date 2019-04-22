@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "data_struct.h"
 
 /* キュー構造 */
 typedef struct
@@ -20,11 +21,9 @@ static QueueData	*queue;
 void
 initQueue(int num_data)
 {
+	/* 初期化済み */
 	if (queue != NULL)
-	{
-		/* 初期化済み */
 		return;
-	}
 
 	queue = (QueueData *) malloc(sizeof(QueueData));
 	queue->data_array = (int *) malloc(sizeof(int) * num_data);

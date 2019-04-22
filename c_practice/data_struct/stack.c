@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "data.h"
+#include "data_struct.h"
 
 
 /* スタック構造 */

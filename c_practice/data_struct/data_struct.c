@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "data.h"
+#include "data_struct.h"
 
 /*
  * データ構造の初期化関数（init_function）、データ入力関数（write_function）
