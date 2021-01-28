@@ -14,7 +14,7 @@ USE_PGXS=1 make install
 ```
 After installing module, please use following command to use this extension:
 ```sql
-psql "CREATE EXTENSION test_dsm;"
+psql -c "CREATE EXTENSION test_dsm;"
 ```
 
 ## Usage:
